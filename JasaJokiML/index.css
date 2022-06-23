@@ -1,1 +1,58 @@
+body {
+  background-image: url("gambar/Bo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
 
+.container {
+  margin-top: 120px;
+  margin-left: 120px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 400px;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.title {
+  margin-top: 0;
+  text-align: center;
+  color: #4d84e3;
+}
+
+.title span {
+  color: white;
+}
+
+.input label {
+  color: white;
+}
+
+.input select {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #a6a6a6;
+  border: 0;
+  font-size: 20px;
+  border-right: 13px solid #00000000;
+}
+
+.input select option {
+  color: black;
+}
+
+.submit-button {
+  margin-top: 100px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  background-color: #4d84e3;
+}
